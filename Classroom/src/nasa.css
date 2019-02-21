@@ -1,0 +1,33 @@
+
+
+main {
+    background-image: url(EtaCarinae_HubbleSchmidt_1764.jpg);
+    align-content: center;
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 850px;
+    text-align:center;
+}
+ section {
+     display : flex;
+     flex-direction: row;
+     background-color: grey;
+     margin-top: 20px;
+     margin-left: 100px;
+     justify-content: space-between;
+     height: 324px;
+     width: 850px;
+     align-self: flex-start
+
+ }
+ article {
+     display: flex;
+     flex-direction: row;
+
+ }
+ h2 {
+     margin: 50px;
+ }
+ 
+ 
