@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
                         <li><a href="#">nav 3</a></li>
                       </ul>
                     </nav>
-                    <main>
+                    
                       
                       <div id ="calendar">
                         <div class="month">
@@ -58,32 +58,35 @@
                                 
                               </ul> 
                  </div>
-                        
+                 <div id = "Todo">
+                 <h1>To Do</h1>
+                 <input type ="todo1" id ="todobox">
+                 <li id = "todo">Enter item one to do first in the above box.</li>
+                 <li id ="todo">To do item 2.</li>
+                </div>
                         
 
                       
-                    </main>
-                    <aside><div class ="toDo">
-                      <h1>To Do</h1>
-                      <input type ="todo1" id ="todobox">
-                      <li id = "todo">Enter item one to do first in the above box.</li>
-                      <li id ="todo">To do item 2.</li>
-
-                    </div></aside>
-                    
-                    <div id="calculator">
+      
+                    <aside>
+                    <form id="calculator"title ="Calculator designed with div and css.">
                             <button id="Name">TCM Electronics</button>
                             <input type ="text" id ="displayBox">
-                            <input type ="button" id ="addsubmulti" value ="*">
-                            <input type ="button" id ="addsubmulti" value ="+">
-                            <input type ="button" id ="addsubmulti" value ="-">
-                            <input type ="button" id ="addsubmulti" value ="/">
-                             <input type ="button" id ="digitButtons" value="7" ><input type ="button" id ="digitButtons" value ="8">
-                             <input type ="button" id ="digitButtons" value=" 9">
-                            <input type ="button" id ="digitButtons" value= "4"><input type ="button" id ="digitButtons" value ="5"><input type ="button" id ="digitButtons" value= "6"><input type ="button" id ="digitButtons" value= "1"><input type ="button" id ="digitButtons" value= "2"><input type ="button" id ="digitButtons" value= "3"><input type ="button" id ="digitButtons" value= "0"><input type ="button" id ="Return" value= "Return">
-                             </div>
+                            <input id ="gd_siplay" type="text" name ="display" readonly>
+                            <input type ="button" id ="addsubmulti" value ="*" onclick ="calculator.display.value += '*'">
+                            <input type ="button" id ="addsubmulti" value ="+" onclick ="calculator.display.value += '+'">
+                            <input type ="button" id ="addsubmulti" value ="-" onclick ="calculator.display.value += '-'">
+                            <input type ="button" id ="addsubmulti" value ="/" onclick ="calculator.display.value += '/'">
+                            <input type ="button" id ="digitButtons" value="7" onclick ="calculator.display.value += ''7">
+                            <input type ="button" id ="digitButtons" value ="8" onclick ="calculator.display.value += ''8">
+                            <input type ="button" id ="digitButtons" value=" 9">
+                            <input type ="button" id ="digitButtons" value= "4">
+                            <input type ="button" id ="digitButtons" value ="5"><input type ="button" id ="digitButtons" value= "6"><input type ="button" id ="digitButtons" value= "1"><input type ="button" id ="digitButtons" value= "2"><input type ="button" id ="digitButtons" value= "3"><input type ="button" id ="digitButtons" value= "0"><input type ="button" id ="Return" value= "Return">
+                    </form>
+
+                            </aside>
                     <footer>
-                      <button id ="Date">8/3/15   @ 15:15</button>
+                      <button id =] "Date">8/3/15   @ 15:15</button>
                       
                       
                     </footer>
