@@ -27,15 +27,8 @@ header {
   
 
   .container {
-    display: grid;
-    grid-template-areas: 
-      "header"
-      "nav"
-      "main"
-      "aside"
-      "banner"
-      "footer";
-
+    display: flexbox;
+    flex-direction: row;  
   }
   .container > main {
     display: grid;
@@ -66,7 +59,7 @@ header {
   #digitButtons {
     width: 60px;
     height:70px;
-     margin: 2px 5px;
+     margin: 2px 5px 2px 5px;
      padding: 2px 2px;
      border-radius: 4px;
   }
@@ -85,8 +78,8 @@ header {
       background-size: cover;
       width: 400px;
       height: 375px;
-      display:grid;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      
+      
     }
     .month {
       padding-top: 20px;

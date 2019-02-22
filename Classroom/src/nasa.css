@@ -1,7 +1,7 @@
 
 
 main {
-    background-image: url(EtaCarinae_HubbleSchmidt_1764.jpg);
+    background-image: url(earth-soil-creep-moon-lunar-surface-87009.jpeg);
     align-content: center;
     height: 450px;
     margin-left: 100px;
@@ -13,21 +13,24 @@ main {
      display : flex;
      flex-direction: row;
      background-color: grey;
-     margin-top: 20px;
+     margin-top: 10px;
      margin-left: 100px;
-     justify-content: space-between;
+     
      height: 324px;
      width: 850px;
-     align-self: flex-start
+     
 
  }
- article {
+ #article {
      display: flex;
      flex-direction: row;
+     margin-top:10px;
 
  }
  h2 {
-     margin: 50px;
+     margin-top: 50px;
+
  }
+
  
  
