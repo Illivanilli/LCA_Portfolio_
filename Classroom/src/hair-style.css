@@ -1,0 +1,48 @@
+
+.logoHeader {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+
+}
+.mainPicture {
+    background-image: url(salonPictures/pexels-photo-897262.jpeg);
+    width: auto;
+    height: 600px;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+ul#menu li {
+    display:inline;
+    margin-left:20px;
+    margin-right: 20px;
+    
+  }
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    
+    
+}
+#parapgrahs  {
+    position: absolute;
+    left: 80%;
+}
+.examples {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+      
+}
+#example {
+    margin-right:20px
+}
