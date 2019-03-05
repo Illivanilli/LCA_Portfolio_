@@ -1,9 +1,11 @@
 header {
     background-color: teal;
-    height: 250px;
+    height: 300px;
     display:grid;
     grid-template-rows: 1fr ;
     grid-template-columns: 1fr;
+    justify-content: center;
+    
     
 }
 h1 {
