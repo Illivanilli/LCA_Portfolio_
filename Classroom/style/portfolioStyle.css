@@ -1,0 +1,26 @@
+header {
+    background-color: teal;
+    height: 250px;
+    display:grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr;
+    
+}
+h1 {
+    text-align: center;
+}
+main {
+    display:flex;
+    flex-direction: row;
+
+}
+
+nav {
+    margin: auto;
+}
+
+form {
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+}
