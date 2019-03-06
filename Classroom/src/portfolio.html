@@ -12,29 +12,48 @@
         <h1>
             Christopher's Portfolio Page.
         </h1>
-        <iframe width="205" height="200" src="https://www.youtube.com/embed/CGNnZvKfhvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <nav><a href="dashboard.html">Dashboard</a></nav><nav><a href="nasa.html">Nasa landing page</a></nav>
     </header>
     <main>
+    <div class = "contact form">
 
            
 
-                   <form>
-                        <input type="text" name="Name" id="name" required>
-                        <input type="date" name="DOB" id="date-of-birth" required>
-                        <input type="email" name="Email" id ="email" required>
-                        <input type="checkbox" name ="Do you want us to contact you?" id = "contact back">
-                        <input type ="text" name="complaint" id = "comlpaint" required>
+                   <form id ="contactUs">
+                       
+                       <h2>Contact Me</h2>
+                       <span>Please fill out the form, and I will contact you as soon as possible.</span>
+                        <label><span>Your Name :</span>
+                            <input id="name" type="text" name="name" placeholder="Your Full Name." />
+                        </label>
+                        <label> <span>Your Email:</span>
+                            <input id="email" type="text" name="email" placeholder="Your Email." />
+                        </label>
+                        <label> <span>Your Location:</span>
+                            <input id="location" type="text" name="location" placeholder="Your Location." />
+                        </label>
+                        <label>
+                            <span>Message you want to send: </span>
+                            <input id="message" type="message" name="message" placeholder="The Message you want to send."
+                        </label>
                         
                         <input type="submit" value="Submit">  // a button that says: "Submit"
                         <input type="reset" value="Reset">    // a button that says: "Reset"
                    </form>     
+    </div>
+    <div class= "framevid">
+        <iframe width="600" height="500" src="https://www.youtube.com/embed/CGNnZvKfhvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-               
+    
+    </div>
+    </main>
+    <footer>
+
+    </footer>
         
    
 
 
-    </main>
+   
 </body>
 </html>
