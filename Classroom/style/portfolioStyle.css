@@ -24,9 +24,13 @@ main {
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     align-content: center;
+    
 
 }
-
+div {
+    border: 20px;
+    color: #f87f2a ;
+}
 nav {
     display:flex;
     flex-direction: row;
