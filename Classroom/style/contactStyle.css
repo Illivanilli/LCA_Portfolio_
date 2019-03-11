@@ -1,0 +1,118 @@
+
+body {
+    background-image: url('../image/Artboard\ 2-100.jpg');
+    background-color: whitesmoke;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    
+}
+
+.container  {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap:  30px;
+    justify-items: stretch;
+}
+.index {
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+
+
+.header {
+    
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    text-align: center;
+    
+}
+h1 {
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    color: #FBA530;
+}
+.email {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+.phone {
+    grid-row-start: 2;
+    grid-column-start: 4;
+
+}
+
+p {
+    color :rgb(255, 255, 255)  ;
+    text-shadow: -1px 0 #FBA530, 0 1px #FBA530, 1px 0 #FBA530, 0 -1px #FBA530; 
+}
+.facebook {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+
+}
+.twitter {
+    grid-column-start: 5;
+    grid-row-start: 1;
+    justify-self: end;
+}
+a {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1170px) {
+.facebook {
+grid-row-start: 3;
+grid-column-start: 4;
+grid-column-end: 4;
+}
+.twitter {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+
+}
+@media screen and (max-width: 890px){
+    body {
+        background-size: cover;
+    }
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    .facebook {
+        grid-row-start: 3;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        justify-self: end;
+        }
+        .twitter {
+            grid-row-start: 3;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            justify-self: normal;
+        }
+        .email {
+            grid-column-start: 3;
+            grid-row-start: 2;
+        }
+}
+
+@media screen and (max-width:830px){
+    .container {
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .twitter {
+        grid-column-start:3;
+        grid-column-end: 3;
+    }
+}
