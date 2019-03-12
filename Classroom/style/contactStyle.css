@@ -19,8 +19,25 @@ body {
     justify-items: stretch;
 }
 .index {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    float:right;
+}
+.index2 {
     grid-row-start: 2;
     grid-column-start: 1;
+    float: end;
+}
+.index3 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    float:end;
+}
+a {
+    float:right;
+    display:block;
+    justify-content: end;
+
 }
 
 
@@ -28,7 +45,7 @@ body {
     
     grid-column-start: 2;
     grid-row-start: 1;
-
+    justify-content: end;
     text-align: center;
     
 }
@@ -58,12 +75,16 @@ p {
 
 }
 .twitter {
-    grid-column-start: 5;
-    grid-row-start: 1;
-    justify-self: end;
+    grid-column-start: 1;
+    grid-row-start: 2;
 }
+
 a {
     font-size: 25px;
+}
+li {
+    list-style: none;
+    list-style-position: inherit;
 }
 
 @media screen and (max-width: 1170px) {
