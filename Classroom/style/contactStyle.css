@@ -66,7 +66,7 @@ h1 {
 
 p {
     color :rgb(255, 255, 255)  ;
-    text-shadow: -1px 0 #FBA530, 0 1px #FBA530, 1px 0 #FBA530, 0 -1px #FBA530; 
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 #black, 0 -1px black; 
 }
 .facebook {
     grid-column-start: 1;
@@ -136,4 +136,55 @@ grid-column-end: 4;
         grid-column-start:3;
         grid-column-end: 3;
     }
+}
+
+@media screen and (max-width:500px){
+body {
+    background-size: 500px;
+    width: 500px;
+    height: 800px;
+}
+.index {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    justify-self: center;
+}
+.index2 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    
+    justify-self: center;
+}
+.index3 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    align-self: end;
+    margin-top: 50px;
+
+}
+.email {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    align-self: end;
+    
+}
+p {
+    font-size: 15px;
+}
+.facebook {
+        grid-column-start: 2;
+        grid-row-start: 5;
+        align-self: end;
+    
+}
+.twitter {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    align-self: end;
+}
+img {
+    height: 75px;
+    width: 75px;
+   
+}
 }
