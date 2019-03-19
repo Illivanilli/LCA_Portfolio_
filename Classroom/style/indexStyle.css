@@ -33,6 +33,7 @@ nav > a {
   padding: 20px; 
   text-align: center;
   border: 2px solid white;
+  
 }
 
 .has-border {
@@ -40,6 +41,11 @@ nav > a {
   border: 2px solid #000000;
   background: none;
   padding: 20px; 
+  
+  
+}
+.example {
+  border-color:blue;
 }
 
 nav {
