@@ -1,3 +1,6 @@
+body {
+    background-color: #D8FD0A;
+}
 .container {
     background-color: darkgrey;
     
@@ -13,17 +16,17 @@ header {
     border: solid black 2px;
 }
 .container:hover :nth-child(odd) {
-    transform: translate(-500px) scale(2, 2) rotate(90deg);
-    transition: ease-in-out 2s;
+    transform: translate(-800px) rotate(-90deg);
+    transition: ease-in 2s;
     margin-left:0%;
 
 
 }
 .container:hover :nth-child(even){
-    transform:translate(500px) scale(2, 2) rotate(90deg); 
-    transition: ease-in-out 2s;
+    transform:translate(800px) scale(2, 2) rotate(90deg); 
+    transition: ease-in-out 5s;
     margin-right: 90%;
-    
+    transition: ease-in 2s;
     
     
 }
@@ -38,17 +41,17 @@ div {
     border:2px black solid;
     width: 50px;
     
-    transition: all 0.3s ease-in-out;
+   
     margin-top: 10px;
-
+    transition: ease-in 2s;
 }
 #two {
     background-color: red;
     height: 50px;
     border:2px black solid;
     width: 50px;
-    transition: all 0.3s ease-in-out;
-    
+   
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #three {
@@ -56,8 +59,8 @@ div {
     height:50px;
     border:2px black solid;
     width: 50px;
-    transition: all 0.3s ease-in-out;
     
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #four {
@@ -65,7 +68,7 @@ div {
     height:50px;
     border:2px black solid;
     width: 50px;
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
    
     margin-top: 10px;
 }
@@ -75,7 +78,7 @@ div {
     border:2px black solid;
     width: 50px;
     
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #six {
@@ -84,7 +87,7 @@ div {
     border:2px black solid;
     width: 50px;
    
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #seven {
@@ -93,7 +96,7 @@ div {
     border:2px black solid;
     width: 50px;
     
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
     margin-top: 10px;
 
 }
@@ -103,7 +106,7 @@ div {
     border:2px black solid;
     width: 50px;
     
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #nine {
@@ -112,7 +115,7 @@ div {
     border:2px black solid;
     width: 50px;
     
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #ten {
@@ -121,7 +124,7 @@ div {
     border:2px black solid;
     width: 50px;
    
-    transition: all 0.3s ease;
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #eleven {
@@ -130,7 +133,7 @@ div {
     width: 50px;
     border:2px black solid;
  
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 #twelve {
@@ -139,7 +142,7 @@ div {
     border:2px black solid;
     width: 50px;
    
-    transition: all 0.3s ease-in-out;
+    transition: ease-in 2s;
     margin-top: 10px;
 }
 
