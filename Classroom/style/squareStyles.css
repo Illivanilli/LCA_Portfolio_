@@ -1,0 +1,147 @@
+.container {
+    background-color: darkgrey;
+    
+ 
+    
+    
+}
+header {
+    background-color:grey;
+    height:50px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: solid black 2px;
+}
+.container:hover :nth-child(odd) {
+    transform: translate(-500px) scale(2, 2) rotate(90deg);
+    transition: ease-in-out 2s;
+    margin-left:0%;
+
+
+}
+.container:hover :nth-child(even){
+    transform:translate(500px) scale(2, 2) rotate(90deg); 
+    transition: ease-in-out 2s;
+    margin-right: 90%;
+    
+    
+    
+}
+div {
+    margin-left:50%;
+    margin-right:50%;
+}
+
+#one{
+    background-color:blue;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+    
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+
+}
+#two {
+    background-color: red;
+    height: 50px;
+    border:2px black solid;
+    width: 50px;
+    transition: all 0.3s ease-in-out;
+    
+    margin-top: 10px;
+}
+#three {
+    background-color:purple;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+    transition: all 0.3s ease-in-out;
+    
+    margin-top: 10px;
+}
+#four {
+    background-color:teal;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+    transition: all 0.3s ease-in-out;
+   
+    margin-top: 10px;
+}
+#five {
+    background-color: darkblue;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+    
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+#six {
+    background-color: crimson;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+   
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+#seven {
+    background-color: chocolate;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+    
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+
+}
+#eight {
+    background-color: rebeccapurple;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+    
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+#nine {
+    background-color: forestgreen;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+    
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+#ten {
+    background-color: brown;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+   
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+#eleven {
+    background-color: aquamarine;
+    height:50px;
+    width: 50px;
+    border:2px black solid;
+ 
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+#twelve {
+    background-color:darkgreen;
+    height:50px;
+    border:2px black solid;
+    width: 50px;
+   
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+
+
