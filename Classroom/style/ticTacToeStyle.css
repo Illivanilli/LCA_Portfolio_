@@ -1,0 +1,85 @@
+.container {
+margin-left: 50%;
+display:grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+.topSquares {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    background-color:blue;
+    height:100px;   
+    width: 600px;
+    
+    
+}
+.middleSquares {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    
+    height:100px;
+    width: 600px;
+    
+}
+.bottomSquares {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    
+    height:100px; 
+    width: 600px;
+    
+}
+.firstTopSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightblue;
+}
+.secondTopSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: blue;
+}
+.thirdTopSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightblue;
+}
+.firstMiddleSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: blue;
+}
+.secondMiddleSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightblue;
+}
+.thirdMiddleSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: blue;
+}
+.firstBottomSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightblue;
+}
+.secondBottomSquare{
+    border: 2px solid black;
+    text-align: center;
+    background-color: blue;
+}
+.thirdBottomSquare {
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightblue;
+}
+#restartGameButton {
+    float:right;
+    
+}
+button {
+    height: 50px;
+    width: 100px;
+}
