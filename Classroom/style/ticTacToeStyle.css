@@ -1,8 +1,9 @@
 .container {
-margin-left: 50%;
+
 display:grid;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr;
+margin-right:auto;
+margin-left: auto;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-gap: 20px;
 }
 .topSquares {
@@ -11,6 +12,8 @@ grid-gap: 20px;
     background-color:blue;
     height:100px;   
     width: 600px;
+    grid-column-start: 2;
+    grid-column-end: 4;
     
     
 }
@@ -20,7 +23,8 @@ grid-gap: 20px;
     
     height:100px;
     width: 600px;
-    
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 .bottomSquares {
     display: grid;
@@ -28,7 +32,8 @@ grid-gap: 20px;
     
     height:100px; 
     width: 600px;
-    
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 .squareOdd {
     background-color: blue;
