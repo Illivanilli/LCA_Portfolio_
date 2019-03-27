@@ -24,7 +24,11 @@ $( document ).ready(function() {
             }
         })
     
-
+        function winnerCheck (){
+            if (movesMade > 4){
+                
+            }
+        }
 });
 
 
