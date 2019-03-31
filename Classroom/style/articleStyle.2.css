@@ -3,7 +3,7 @@ html,body {
     padding:0;
 }
 body {
-    background-color: #7EA5B3;
+    background-color: #7ABA7A;
     overflow-y:hidden;
 }
 @media (min-width: 992px){
@@ -31,12 +31,12 @@ header {
     height:50px;
     margin-bottom: 0%;
     padding-bottom: 0%;
-    background-color: rgb(2, 48, 78);
+    background-color: #028482;
     
     }
 }
 .topHalf{
-    background-color: #7EA5B3;
+    background-color: #7ABA7A;
     text-align: center;
     height:250px;
 }
@@ -45,7 +45,7 @@ h1 {
 
 }
 .middleHalf {
-    background-color: rgb(2, 48, 78);
+    background-color: #028482;
     display:grid;
     grid-template-columns: 10% 80% 10%;
     grid-column-gap: 50px;
