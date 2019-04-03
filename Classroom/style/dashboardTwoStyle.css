@@ -1,0 +1,236 @@
+body {
+    background-color: #24305E;
+}
+
+#top {
+	margin: 20px 20px 0px 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	height: 100px; 
+	voice-family: "\"}\"";
+	voice-family:inherit;
+    height: 70px;
+    
+}
+html>body #top {
+	height: 70px; 
+	}
+#left {
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 200px; 
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 120px;
+	}
+html>body #left {
+	width: 120px; 
+	}
+#middle {
+	margin: 20px 190px 20px 190px;
+	padding: 10px;
+	border: 5px solid #ccc;
+    background: #666;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+	}
+#right {
+	position: absolute;
+	top: 120px;
+	right: 0px;
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 150px; 
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 120px;
+    }
+  
+    
+html>body #right {
+	width: 120px; 
+    }
+    /* calendar */
+    #calendar {
+        background-image: url(../image/autumn-blank-board-628233.jpg);
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        width: 400px;
+        height: 375px;
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      }
+      .month {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        text-align: center;
+        
+      }
+      .weekdays {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        text-align: center;
+        margin-bottom: 1px;
+        
+      }
+      .days {
+        margin-top:0px;
+        display:grid;
+        grid-template-rows: repeat(7, 1fr);
+        grid-row-gap: 2px;
+        grid-template-columns: repeat(8,1fr);
+        border:solid;
+        
+      }
+      /* Calculator style */
+
+      #calc {
+          width: 300px;
+      }
+     
+      .calcBody {
+        background-color: #BFE6F0;
+        width: 300px;
+        height: 550px;
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+       position: absolute;
+       margin: 25px;
+       border-top-left-radius: 5%;
+       border-top-right-radius: 5%;
+       border: solid black;
+       
+    }
+    .symbols {
+   
+        display:flex;
+        flex-direction: row;
+       
+    }
+    #symbol {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .number {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    #numbers {
+        height: 100px;
+        width: 100px;
+    }
+    
+    #return {
+        width :200px;
+    }
+    #displayBox {
+        text-align: start;
+        text-decoration: bold;
+        margin-right: 25px;
+        font-size: 125%;
+        background-color: teal;
+        
+    }
+    ul li {
+        list-style: none;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+    /* Weather */
+
+    .weather {
+        float:right;
+    }
+    article {
+        border :5px solid #24305E;
+        text-align: start;
+        color: black;
+        text-indent: 50px;
+    }
+    #add {
+        
+            color: #fff !important;
+            text-transform: uppercase;
+            background: #056571;
+          
+            border-radius: 5px;
+            display: inline-block;
+            border: none;
+            
+          
+    }
+
+   
+ @media (max-width:1146px){
+    #calc {
+        display: none;
+    }
+    #hiddenCalendar {
+         display: none;
+}
+    
+    #calendar {
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    }
+    
+
+@media (max-width:827px){
+    #hiddenCalendar {
+        display: initial;
+        border: 2px;
+    
+    
+}
+    
+    #article {
+        display: initial;
+    }
+    #middle {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #calc {
+        display: none;
+    }
+    #calendar{
+        display: none;
+    }
+
+    }
+@media (min-width:1146px){
+        #hiddenCalendar {
+            display: none;
+        }
+    
+    }
+@media (max-width:1034px){
+   
+}
+@media(max-width: 1002px) and (min-width: 830px)
+{
+    article {
+        display:none;
+    }
+}
