@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 2px solid black;
+    background-color: teal;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+
+
+}
+.geo {
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+}
+#find-me {
+    float:left;
+}
+#status {
+    text-align: center;
+    font-size: 10px;
+    color:blue;
+    float: right;
+}

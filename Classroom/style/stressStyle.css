@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    width: 0;
+    background-color: lightgray;
+}
+.container {
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+margin-left: 50%;
+margin-right: 50%;
+grid-gap:50px;
+
+
+}
+#box {
+height:100px;
+width: 100px;
+border-radius: 5%;
+
+
+}
+.boxes {
+ 
+
+}
+.box1 {
+    background-color: red;
+    grid-column-start: 1fr;
+}
+.box2 {
+    background-color: blue;
+    grid-column-start: 2fr;
+}
+.box3 {
+    background-color: teal;
+    grid-column-start: 3fr;
+
+}
+.box4 {
+    background-color: brown;
+    grid-column-start: 4fr;
+}
