@@ -59,6 +59,9 @@ html>body #left {
 html>body #right {
 	width: 120px; 
     }
+    h5 {
+        color: whitesmoke;
+    }
     /* calendar */
     #calendar {
         background-image: url(../image/autumn-blank-board-628233.jpg);
