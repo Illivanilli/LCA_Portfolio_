@@ -45,5 +45,14 @@ $(function() {
 
 
     })
+    if (clickstotal > 0){console.log("Greater than Zero")}
+    }
+    else (clickstotal < 0){console.log("less than zero")}
 
+    else if ({console.log("Error, void")})
+
+    $(function addToTotal(onclick){
+      if ne
+    }
+    
 })
