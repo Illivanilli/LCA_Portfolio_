@@ -97,58 +97,7 @@ html>body #right {
       }
       /* Calculator style */
 
-      #calc {
-          width: 300px;
-      }
      
-      .calcBody {
-        background-color: #BFE6F0;
-        width: 300px;
-        height: 550px;
-        display:grid;
-        grid-template-rows: 1fr 1fr;
-       position: absolute;
-       margin: 25px;
-       border-top-left-radius: 5%;
-       border-top-right-radius: 5%;
-       border: solid black;
-       
-    }
-    .symbols {
-   
-        display:flex;
-        flex-direction: row;
-       
-    }
-    #symbol {
-        height: 50px;
-        width: 50px;
-    }
-    
-    .number {
-        width: 300px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    
-    #numbers {
-        height: 100px;
-        width: 100px;
-    }
-    
-    #return {
-        width :200px;
-    }
-    #displayBox {
-        text-align: start;
-        text-decoration: bold;
-        margin-right: 25px;
-        font-size: 125%;
-        background-color: teal;
-        
-    }
     ul li {
         list-style: none;
     }
@@ -179,7 +128,10 @@ html>body #right {
             
           
     }
-
+/* Iframe for Calc*/
+iframe {
+    border:none;
+}
    
  @media (max-width:1146px){
     #calc {
