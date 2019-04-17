@@ -1,58 +1,38 @@
- $( document ).ready(function() {
-   
+var date = new Date();
+var timer = Date.now(); 
+var average = 800;
 
-    var box1;
-    var box2;
-    var box3;
-    var box4;
-    var count;
-
-    box1 = document.getElementsByClassName(box1);
-    box2 = document.getElementsByClassName(box2);
-    box3 = document.getElementsByClassName(box3);
-    box4 = document.getElementsByClassName(box4);
-
-$(function() {  
-    $('.box1').click(function(){
-        $(this).css('background','yellow');
-        
-      });
-    });
- $(function() {  
-   $('.box2').click(function(){
-        $(this).css('background','tan');
-            
-    });
-    });
- $(function() {  
-    $('.box3').click(function(){
-         $(this).css('background','red');
-                
-        });
-        });
-$(function() {  
-    $('.box4').click(function(){
-         $(this).css('background','green');
-                    
-         });
-    });
-
-    var onclick = 
-    $(function clickstotal(onclick){
-    
+var circle = document.querySelector('.second-circle');
+var stats = document.querySelector('.stats');
 
 
+document.addEventListener('click', function(){
+  tap();
+});
 
-
-    })
-    if (clickstotal > 0){console.log("Greater than Zero")}
+document.addEventListener("keydown", function(touche) { 
+    if (touche.keyCode == 32) {
+      tap();    	   
     }
-    else (clickstotal < 0){console.log("less than zero")}
+}, false); 
 
-    else if ({console.log("Error, void")})
+function air() {
+	circle.classList.add('heart');
+	setTimeout(function(){
+		circle.classList.remove('heart');
+	},200);
+}
 
-    $(function addToTotal(onclick){
-      if ne
-    }
-    
-})
+
+function tap(){
+    	average = Math.round( ( average + (Date.now() - timer) ) / 2) ;
+    	stats.innerHTML = average;
+    	if (average > 820 || average < 700) {
+    		circle.style.border = "3px solid red";
+    	}
+    	else {
+    		circle.style.border = "3px solid green";
+    	}
+    	timer = Date.now();
+      air();  
+}
