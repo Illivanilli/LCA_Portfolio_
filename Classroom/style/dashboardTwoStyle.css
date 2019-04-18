@@ -31,15 +31,18 @@ html>body #top {
 	}
 html>body #left {
 	width: 120px; 
-	}
+    }
+
 #middle {
 	margin: 20px 190px 20px 190px;
 	padding: 10px;
 	border: 5px solid #ccc;
     background: #666;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:  1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px;
+    height :auto;
 	}
 #right {
 	position: absolute;
@@ -54,7 +57,14 @@ html>body #left {
 	voice-family:inherit;
 	width: 120px;
     }
-  
+  .calculatorIframe {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .stressIframe {
+    margin-left: auto;
+    margin-right: auto;
+  }
     
 html>body #right {
 	width: 120px; 
@@ -71,6 +81,8 @@ html>body #right {
         height: 375px;
         display:grid;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
       }
       .month {
         padding-top: 20px;
@@ -95,8 +107,7 @@ html>body #right {
         border:solid;
         
       }
-      /* Calculator style */
-
+      
      
     ul li {
         list-style: none;
@@ -132,15 +143,19 @@ html>body #right {
 iframe {
     border:none;
 }
-   
+@media (max-width: 1000px){
+    #right {
+        display:none;
+    }
+    #middle {
+        margin: 20px 20px 20px 190px;
+    }
+}
  @media (max-width:1146px){
     #calc {
         display: none;
     }
-    #hiddenCalendar {
-         display: none;
-}
-    
+   
     #calendar {
         
         margin-left: auto;
@@ -149,43 +164,18 @@ iframe {
 
     }
     
-
-@media (max-width:827px){
-    #hiddenCalendar {
-        display: initial;
-        border: 2px;
-    
-    
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-    
-    #article {
-        display: initial;
+span {
+    color: white;
+}
+@media (max-width:835px){
+    #left {
+        display:none;
     }
     #middle {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    #calc {
-        display: none;
-    }
-    #calendar{
-        display: none;
-    }
-
-    }
-@media (min-width:1146px){
-        #hiddenCalendar {
-            display: none;
-        }
-    
-    }
-@media (max-width:1034px){
-   
-}
-@media(max-width: 1002px) and (min-width: 830px)
-{
-    article {
-        display:none;
+        margin: 20px 20px 20px 20px;
     }
 }

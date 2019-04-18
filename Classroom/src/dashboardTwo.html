@@ -37,6 +37,7 @@
                     <script src ="../js/todo.js"></script>
                   </div>
         <div id ="middle">
+            
                 <div id ="calendar">
                         <div class="month">
                           <h4>August</h4>
@@ -75,21 +76,13 @@
                  <div class ="calculatorIframe">
                   <iframe width="560" height="550" style src=../src/calc.html></iframe>
                  </div>
+                 <div class ="stressIframe">
+                  <iframe width="560" height="550" style src=../src/stressReliver.html></iframe>
+                </div>
        
            
-        <div id ="hiddenCalendar">
-                <div class= "monthName">
-                    <h4>Today is <img src="../image/icons/icons8-sun-48.png"></h4>
-                    <h4>August the 3rd, 2014 </h4>
-                </div>
-               
-             </div>
-             <div id ="article">
-                    <article>
-                        <h3>Article</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero quis laudantium modi dolor debitis placeat reiciendis ducimus neque officia, totam blanditiis, eaque quia facilis sint repudiandae ullam voluptatem earum iste dolore minus ipsum similique, repellendus officiis. Facilis officia quas aspernatur sapiente vel inventore excepturi quasi saepe, cumque deleniti soluta. <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor modi totam ab. Iusto, hic beatae assumenda, laudantium minima maiores corrupti asperiores nulla esse alias corporis tenetur aut voluptatibus consequuntur unde.
-                        </article>
-             </div>
+        
+             
         </div>
 
         <div id="right">
@@ -103,13 +96,19 @@
                         <div id ="Sun"><dd>Sunday</dd><img src="../image/icons/icons8-partly-cloudy-day-48.png"></div>
                     </div>
         </div>
+        
         <footer>
+          <div>
             <h5>Tip Of the Day:<p>Never stop learning because life never stops teaching</p> </h5>
+          </div>
+          <div class="today">
+            <h5>Today Date is</h5><span id ="today"></span>
+          </div>
         </footer>
    
 
 
-        
+        <script src ="../js/todayDate.js"></script>
     </body>
 </body>
 </html>
